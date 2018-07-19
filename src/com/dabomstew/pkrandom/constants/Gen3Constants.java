@@ -180,7 +180,7 @@ public class Gen3Constants {
         table[0x0F] = Type.ICE;
         table[0x10] = Type.DRAGON;
         table[0x11] = Type.DARK;
-        table[0x17] = Type.FAIRY;
+        table[0x12] = Type.FAIRY;
         return table;
     }
 
@@ -224,7 +224,7 @@ public class Gen3Constants {
         case DARK:
             return 0x11;
         case FAIRY:
-            return 0x17;
+            return 0x12;
         default:
             return 0; // normal by default
         }
